@@ -1,0 +1,25 @@
+{
+  "name": "hytalemodding-archive",
+  "version": "1.0.0",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "bun --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
